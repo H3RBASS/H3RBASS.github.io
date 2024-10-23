@@ -1,43 +1,62 @@
-/* Estilos generales */
 body, html {
-    margin: 0; /* Elimina márgenes por defecto */
-    height: 100%; /* Altura completa */
-    font-family: 'Montserrat', sans-serif; /* Aplica la fuente Montserrat */
-    background-color: #d1d1d1; /* Fondo del cuerpo */
-    line-height: 1.6; /* Altura de línea */
+    margin: 0;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #d1d1d1;
+    line-height: 1.6;
 }
 
-/* Sección de Servicios */
 #Servicios1 {
-    display: flex; /* Usamos flexbox */
-    flex-direction: column; /* Alineamos los elementos en columna */
-    justify-content: center; /* Centra la posicion del texto*/
-    align-items: top; /* Centra horizontalmente */
-    text-align: center; /* Centra el texto dentro del div */
-    height: 100vh; /* Altura de la ventana */
-    background-color: #d1d1d1; /* Fondo específico de la sección */
-}
-.Junior
-{
-    position: relative;
-    color: rgb(0, 0, 0);
-    left: -600px;
-}
-.Junior1
-{
-    position: relative;
-    color: rgb(0, 0, 0);
-    left: -600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
 
+#Servicios1 h1 {
+    text-align: center;
+}
 
-/* Estilos del footer */
+#Servicios1 p {
+    text-align: center;
+}
+
+.paquetes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.paquete {
+    margin: 0 10px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.paquete h2 {
+    background-color: #444;
+    color: white;
+    padding: 10px;
+    font-size: 1.5em;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.paquete p {
+    flex-grow: 1;
+}
+
 footer {
-    text-align: center; /* Centra el texto del pie de página */
-    padding: 20px 0; /* Espaciado vertical */
+    text-align: center;
+    padding: 20px 0;
 }
 
-/* Estilo para el texto de derechos de autor */
 .Copyr {
-    text-align: center; /* Centra el texto */
+    text-align: center;
 }
