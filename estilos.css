@@ -1,0 +1,90 @@
+header {
+  background: #333;
+  color: #d1d1d1;
+  padding: 10px 0;
+  position: relative;
+}
+body {
+  font-family: 'Montserrat', sans-serif; /* Aplica la fuente Montserrat */
+  background-color: #d1d1d1;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Montserrat', sans-serif; /* Asegúrate de que los encabezados y párrafos también usen Montserrat */
+}
+
+.barra-superior {
+  background: #444; /* Color de fondo de la barra superior */
+  padding: 5px;
+  text-align: center; /* Centra el texto */
+}
+
+nav {
+  text-align: center; /* Centra la navegación */
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px; /* Espaciado alrededor del texto */
+  transition: background 0.3s; /* Transición suave para el hover */
+}
+.texto-colorido1
+{
+  color: #ffffffde;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px 10px; /* Espaciado alrededor del texto */
+}
+
+.encabezado-centro{
+  text-align: center;
+}
+nav ul li a:hover {
+  background: #555; /* Color de fondo al pasar el mouse */
+  border-radius: 5px; /* Bordes redondeados */
+}
+#recomendaciones
+{
+  background-color: #444; /* Color de fondo suave */
+  padding: 20px; /* Espaciado interno */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  margin: 20px 0; /* Margen superior e inferior */
+}
+
+.Copyr
+{
+  text-align: center;
+}
+.recomendacion {
+  display: flex; /* Usar flexbox para alinear imagen y texto */
+  align-items: center; /* Centrar verticalmente */
+  margin-bottom: 15px; /* Espaciado entre recomendaciones */
+}
+
+
+.recomendacion img {
+  width: 100px; /* Ancho de la imagen */
+  height: auto; /* Mantener proporción */
+  border-radius: 50%; /* Imagen circular */
+  margin-right: 15px; /* Espaciado entre imagen y texto */
+}
+
+.recomendacion p {
+  font-size: 1.2em; /* Tamaño de fuente */
+  line-height: 1.5; /* Espaciado entre líneas */
+}
