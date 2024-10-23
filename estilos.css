@@ -75,6 +75,11 @@ nav ul li a:hover {
   align-items: center; /* Centrar verticalmente */
   margin-bottom: 15px; /* Espaciado entre recomendaciones */
 }
+.recomendacion-der {
+  display: flex; /* Usar flexbox para alinear imagen y texto */
+  align-items: right; /* Centrar verticalmente */
+  margin-bottom: 15px; /* Espaciado entre recomendaciones */
+}
 
 
 .recomendacion img {
