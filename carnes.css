@@ -1,0 +1,104 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #691414;
+    color: white;
+}
+
+header {
+    background-color: #b22222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;    /* Centra verticalmente */
+}
+
+.logo img {
+    width: 150px;   /* Cambia a la medida que desees */
+    height: auto;   /* Mantiene la proporción de la imagen */
+    max-width: 100%; /* Asegura que no exceda el ancho del contenedor */
+    margin: 0 auto;
+    border: 10px solid #b22222; /* Añade un borde de 10px de grosor, sólido y color rojo */
+    border-radius: 100px; 
+}
+
+.intro h2, p {
+    text-align: center;
+}
+
+.contenido {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #b22222;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Estilos del carrusel */
+.carrusel {
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    margin: 20px 0;
+}
+
+.imagenes {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.imagen-con-texto {
+    position: relative;
+    min-width: 100%; /* Asegura que cada imagen ocupe todo el ancho del carrusel */
+}
+
+.imagen-con-texto img {
+    width: 100%;      /* Asegura que las imágenes ocupen todo el ancho */
+    height: auto;     /* Mantiene la proporción de la imagen */
+    border: 10px solid #b22222; /* Añade un borde a las imágenes */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+.texto-corte {
+    position: absolute;
+    top: 10px;          /* Distancia desde la parte superior */
+    left: 10px;         /* Distancia desde la izquierda */
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo semitransparente */
+    color: white;       /* Color del texto */
+    padding: 5px;       /* Espacio interno */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px;    /* Tamaño de fuente */
+}
+
+.btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#anterior {
+    left: 10px;
+}
+
+#siguiente {
+    right: 10px;
+}

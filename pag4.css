@@ -1,0 +1,18 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(187, 195, 201);
+    line-height: 1.6;
+}
+.contacto {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+.contacto h1 {
+    font-size: 40px;
+    text-align: center;
+    justify-content: space-between; 
+}

@@ -11,15 +11,39 @@ body {
   margin: 0;
   padding: 0;
 }
+.logoh {
+  padding: 25px;
+  width: 200px; /* Cambia el tamaño de la imagen según lo necesites */
+  height: auto; /* Mantiene la proporción de la imagen */
+  display: block;
+  margin: 0 auto; /* Centra la imagen horizontalmente */
+  border-radius: 50px;
+}
 
 h1, h2, h3, h4, h5, h6, p {
   font-family: 'Montserrat', sans-serif; /* Asegúrate de que los encabezados y párrafos también usen Montserrat */
 }
+.barra-accesos ul{
+  padding: 0;
+  margin: 20;
+  list-style-type: none; /* Quita los puntos de la lista */
+  text-align: center; /* Centra la lista */
+}
+.barra-accesos ul li {
+  display: inline-block; /* Coloca los elementos en fila */
+  margin: 0 15px; /* Espacio entre los botones */
+}
 
-.barra-superior {
+.barra-superior{
+  display: flex;
+  justify-content: center;
+}
+.barra-superior h1{
+  text-align: center;
   background: #444; /* Color de fondo de la barra superior */
-  padding: 5px;
-  text-align: center; /* Centra el texto */
+  width: 300px;
+  padding: 10px;
+  border-radius: 30px;
 }
 
 nav {
@@ -27,31 +51,29 @@ nav {
 }
 
 nav ul {
-  list-style: none;
-  padding: 0;
+  padding: 0px;
 }
 
 nav ul li {
-  display: inline;
-  margin-right: 20px;
+text-align: center; 
 }
 
 nav ul li a {
 
   color: #fff;
   text-decoration: none;
-  padding: 5px 10px; /* Espaciado alrededor del texto */
+  padding: 10px 10px; /* Espaciado alrededor del texto */
   transition: background 0.5s; /* Transición suave para el hover */
 }
 .botones
 {
   margin-left: 15px; /* Ajusta según sea necesario */
   font-size: 20px;
-   transition: font-size 0.5s ease; 
+   transition: font-size 2s ease; 
 }
 
 .botones:hover {
-  transform: scale(1.1); /* Tamaño del texto al pasar el cursor */
+  transform: scale(1.2); /* Tamaño del texto al pasar el cursor */
 }
 .texto-colorido1
 {
@@ -79,15 +101,20 @@ nav ul li a:hover {
 {
   text-align: center;
 }
-.recomendacion {
-  display: flex; /* Usar flexbox para alinear imagen y texto */
-  align-items: center; /* Centrar verticalmente */
-  margin-bottom: 15px; /* Espaciado entre recomendaciones */
+.recomendacion-cen{
+  display: flex;
+  align-items: center;
 }
-.recomendacion-der {
-  display: flex; /* Usar flexbox para alinear imagen y texto */
-  align-items: right; /* Centrar verticalmente */
-  margin-bottom: 15px; /* Espaciado entre recomendaciones */
+.recomendacion {
+  display: flex;
+  align-items: center; /* Centrar verticalmente la imagen y el texto */
+  margin-bottom: 50px; /* Espaciado entre recomendaciones */
+  margin-right: 50px;
+  padding: 25px;
+  background-color: #555;
+  height: 70px;
+  width: 650px;
+  border-radius: 30px;
 }
 
 
@@ -95,10 +122,5 @@ nav ul li a:hover {
   width: 100px; /* Ancho de la imagen */
   height: auto; /* Mantener proporción */
   border-radius: 50%; /* Imagen circular */
-  margin-right: 15px; /* Espaciado entre imagen y texto */
-}
-
-.recomendacion p {
-  font-size: 1.2em; /* Tamaño de fuente */
-  line-height: 1.5; /* Espaciado entre líneas */
+  margin-right: 10px; /* Espaciado entre imagen y texto */
 }
