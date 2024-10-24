@@ -1,0 +1,95 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(187, 195, 201);
+    line-height: 1.6;
+}
+
+#Servicios1 {
+    display: flex 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 80px;
+}
+
+#Servicios1 h1 {
+    text-align: center;
+}
+
+#Servicios1 p {
+    text-align: center;
+}
+.precios-top
+{
+    font-size: 30px;
+    text-align: center;
+    justify-content: space-between; 
+}
+
+.paquetes {
+    display: flex;
+    justify-content: space-around ;
+    margin-top: 15px;
+    width: 100%;
+    flex-wrap: wrap; /* Permite que los paquetes se ajusten en pantallas pequeñas */
+}
+
+.paquete {
+    margin: 10px;
+    padding: 25px;
+    background-color: #ffffff;
+    border: 10px solid #ccccccb0;
+    width: 300px; /* Ancho fijo para que los paquetes tengan la misma medida */
+    text-align: center;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column; /* Mantiene los elementos verticales dentro de cada paquete */
+    justify-content: space-between; /* Asegura que el contenido esté bien distribuido */
+    
+}
+.img-cont{
+    text-align: center;
+}
+
+.img-precio{
+    width: 120px;
+    height: auto;
+    border: 5px solid #ccccccb0;
+    text-align: center;
+}
+.precio {
+    margin-left: 15px; /* Ajusta según sea necesario */
+    font-size: 24px; /* Tamaño inicial del texto */
+    transition: font-size 0.3s ease; /* Transición suave para el cambio de tamaño */
+}
+
+.precio:hover {
+    font-size: 26px; /* Tamaño del texto al pasar el cursor */
+}
+
+.paquete h2 {
+    background-color: #444;
+    color: white;
+    padding: 10px;
+    font-size: 1.5em;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.paquete p {
+    flex-grow: 1;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    color: rgb(0, 0, 0);
+}
+
+
+.Copyr {
+    text-align: center;
+}
