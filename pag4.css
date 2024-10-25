@@ -7,8 +7,8 @@ body, html {
 }
 .contacto {
     display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
+    justify-content: center; 
+    align-items: center; 
 }
 
 .contacto h1 {

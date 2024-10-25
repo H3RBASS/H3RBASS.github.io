@@ -34,7 +34,7 @@ body, html {
     justify-content: space-around ;
     margin-top: 15px;
     width: 100%;
-    flex-wrap: wrap; /* Permite que los paquetes se ajusten en pantallas pequeñas */
+    flex-wrap: wrap; 
 }
 
 .paquete {
@@ -42,12 +42,12 @@ body, html {
     padding: 25px;
     background-color: #ffffff;
     border: 10px solid #ccccccb0;
-    width: 300px; /* Ancho fijo para que los paquetes tengan la misma medida */
+    width: 300px; 
     text-align: center;
     border-radius: 40px;
     display: flex;
-    flex-direction: column; /* Mantiene los elementos verticales dentro de cada paquete */
-    justify-content: space-between; /* Asegura que el contenido esté bien distribuido */
+    flex-direction: column; 
+    justify-content: space-between; 
     
 }
 .img-cont{
@@ -61,13 +61,13 @@ body, html {
     text-align: center;
 }
 .precio {
-    margin-left: 15px; /* Ajusta según sea necesario */
-    font-size: 24px; /* Tamaño inicial del texto */
-    transition: font-size 0.3s ease; /* Transición suave para el cambio de tamaño */
+    margin-left: 15px; 
+    font-size: 24px; 
+    transition: font-size 0.3s ease;/
 }
 
 .precio:hover {
-    font-size: 26px; /* Tamaño del texto al pasar el cursor */
+    font-size: 26px;
 }
 
 .paquete h2 {

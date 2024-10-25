@@ -4,50 +4,55 @@ header {
   padding: 10px 0;
   position: relative;
 }
+
 body {
-  font-family: 'Montserrat', sans-serif; /* Aplica la fuente Montserrat */
+  font-family: 'Montserrat', sans-serif;
   background-color: #d1d1d1;
   line-height: 1.6;
   margin: 0;
   padding: 0;
 }
+
 .logoh {
   padding: 25px;
-  width: 200px; /* Cambia el tamaño de la imagen según lo necesites */
-  height: auto; /* Mantiene la proporción de la imagen */
+  width: 200px;
+  height: auto;
   display: block;
-  margin: 0 auto; /* Centra la imagen horizontalmente */
+  margin: 0 auto;
   border-radius: 50px;
 }
 
 h1, h2, h3, h4, h5, h6, p {
-  font-family: 'Montserrat', sans-serif; /* Asegúrate de que los encabezados y párrafos también usen Montserrat */
-}
-.barra-accesos ul{
-  padding: 0;
-  margin: 20;
-  list-style-type: none; /* Quita los puntos de la lista */
-  text-align: center; /* Centra la lista */
-}
-.barra-accesos ul li {
-  display: inline-block; /* Coloca los elementos en fila */
-  margin: 0 15px; /* Espacio entre los botones */
+  font-family: 'Montserrat', sans-serif;
 }
 
-.barra-superior{
+.barra-accesos ul {
+  padding: 0;
+  margin: 20;
+  list-style-type: none;
+  text-align: center;
+}
+
+.barra-accesos ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.barra-superior {
   display: flex;
   justify-content: center;
 }
-.barra-superior h1{
+
+.barra-superior h1 {
   text-align: center;
-  background: #444; /* Color de fondo de la barra superior */
+  background: #444;
   width: 300px;
   padding: 10px;
   border-radius: 30px;
 }
 
 nav {
-  text-align: center; /* Centra la navegación */
+  text-align: center;
 }
 
 nav ul {
@@ -55,60 +60,61 @@ nav ul {
 }
 
 nav ul li {
-text-align: center; 
+  text-align: center; 
 }
 
 nav ul li a {
-
   color: #fff;
   text-decoration: none;
-  padding: 10px 10px; /* Espaciado alrededor del texto */
-  transition: background 0.5s; /* Transición suave para el hover */
+  padding: 10px 10px;
+  transition: background 0.5s;
 }
-.botones
-{
-  margin-left: 15px; /* Ajusta según sea necesario */
+
+.botones {
+  margin-left: 15px;
   font-size: 20px;
-   transition: font-size 2s ease; 
+  transition: font-size 2s ease; 
 }
 
 .botones:hover {
-  transform: scale(1.2); /* Tamaño del texto al pasar el cursor */
+  transform: scale(1.2);
 }
-.texto-colorido1
-{
+
+.texto-colorido1 {
   color: #ffffffde;
   text-align: center;
   text-decoration: none;
-  padding: 5px 10px; /* Espaciado alrededor del texto */
+  padding: 5px 10px;
 }
 
-.encabezado-centro{
+.encabezado-centro {
   text-align: center;
 }
+
 nav ul li a:hover {
-  background: #555; /* Color de fondo al pasar el mouse */
-  border-radius: 5px; /* Bordes redondeados */
-}
-#recomendaciones
-{
-  background-color: #444; /* Color de fondo suave */
-  padding: 20px; /* Espaciado interno */
-  margin: 10px 0; /* Margen superior e inferior */
+  background: #555;
+  border-radius: 5px;
 }
 
-.Copyr
-{
+#recomendaciones {
+  background-color: #444;
+  padding: 20px;
+  margin: 10px 0;
+}
+
+.Copyr {
   text-align: center;
 }
-.recomendacion-cen{
+
+.recomendacion-cen {
   display: flex;
   align-items: center;
 }
+
 .recomendacion {
   display: flex;
-  align-items: center; /* Centrar verticalmente la imagen y el texto */
-  margin-bottom: 50px; /* Espaciado entre recomendaciones */
+  align-items: center;
+  margin-bottom: 50px;
   margin-right: 50px;
   padding: 25px;
   background-color: #555;
@@ -117,10 +123,9 @@ nav ul li a:hover {
   border-radius: 30px;
 }
 
-
 .recomendacion img {
-  width: 100px; /* Ancho de la imagen */
-  height: auto; /* Mantener proporción */
-  border-radius: 50%; /* Imagen circular */
-  margin-right: 10px; /* Espaciado entre imagen y texto */
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+  margin-right: 10px;
 }

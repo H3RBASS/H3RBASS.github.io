@@ -6,6 +6,7 @@ body {
     color: white;
 }
 
+
 header {
     background-color: #b22222;
     color: white;
@@ -15,16 +16,16 @@ header {
 
 .logo {
     display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center;    /* Centra verticalmente */
+    justify-content: center;
+    align-items: center;
 }
 
 .logo img {
-    width: 150px;   /* Cambia a la medida que desees */
-    height: auto;   /* Mantiene la proporción de la imagen */
-    max-width: 100%; /* Asegura que no exceda el ancho del contenedor */
+    width: 150px;
+    height: auto;
+    max-width: 100%;
     margin: 0 auto;
-    border: 10px solid #b22222; /* Añade un borde de 10px de grosor, sólido y color rojo */
+    border: 10px solid #b22222;
     border-radius: 100px; 
 }
 
@@ -49,7 +50,6 @@ p {
     line-height: 1.6;
 }
 
-/* Estilos del carrusel */
 .carrusel {
     position: relative;
     overflow: hidden;
@@ -64,25 +64,25 @@ p {
 
 .imagen-con-texto {
     position: relative;
-    min-width: 100%; /* Asegura que cada imagen ocupe todo el ancho del carrusel */
+    min-width: 100%;
 }
 
 .imagen-con-texto img {
-    width: 100%;      /* Asegura que las imágenes ocupen todo el ancho */
-    height: auto;     /* Mantiene la proporción de la imagen */
-    border: 10px solid #b22222; /* Añade un borde a las imágenes */
-    border-radius: 8px; /* Bordes redondeados */
+    width: 100%;
+    height: auto;
+    border: 10px solid #b22222;
+    border-radius: 8px;
 }
 
 .texto-corte {
     position: absolute;
-    top: 10px;          /* Distancia desde la parte superior */
-    left: 10px;         /* Distancia desde la izquierda */
-    background-color: rgba(0, 0, 0, 0.6); /* Fondo semitransparente */
-    color: white;       /* Color del texto */
-    padding: 5px;       /* Espacio interno */
-    border-radius: 5px; /* Bordes redondeados */
-    font-size: 16px;    /* Tamaño de fuente */
+    top: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;
 }
 
 .btn {
@@ -93,6 +93,25 @@ p {
     border: none;
     padding: 10px;
     cursor: pointer;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.fila {
+    background-color: #b22222;
+    border-radius: 30px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.fila img {
+    max-width: 100%;
+    border-radius: 20px;
 }
 
 #anterior {
